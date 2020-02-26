@@ -24,7 +24,7 @@ export const Title = styled.h2`
   font-size: 36px;
   color: #ffffffbb;
 
-  margin-bottom: 40px;
+  margin-bottom: 55px;
 
   &::after {
     margin-left: 35px;

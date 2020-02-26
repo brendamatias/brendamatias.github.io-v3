@@ -18,6 +18,9 @@ export default function About() {
     <Container>
       <Title>About Me</Title>
       <Content>
+        <div className="image">
+          <img src={perfil} alt="Brenda Matias" />
+        </div>
         <div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -39,9 +42,6 @@ export default function About() {
             <FontAwesomeIcon icon={faInstagram} />
             <FontAwesomeIcon icon={faGithub} />
           </div>
-        </div>
-        <div className="image">
-          <img src={perfil} alt="Brenda Matias" />
         </div>
       </Content>
     </Container>
