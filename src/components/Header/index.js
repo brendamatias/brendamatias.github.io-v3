@@ -12,7 +12,7 @@ export default function Header() {
       <Navbar>
         <ul>
           <li>Home</li>
-          <li>About</li>
+          <li>About</li> 
           <li>Experience</li>
           <li>Cases</li>
         </ul>

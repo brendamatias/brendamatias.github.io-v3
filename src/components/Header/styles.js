@@ -37,7 +37,7 @@ export const Navbar = styled.header`
       content: "";
       width: 5px;
       height: 5px;
-      border-radius: 50%;
+      border-radius: 50%; 
       background: #ffffffaa;
       margin-bottom: 4px;
     }

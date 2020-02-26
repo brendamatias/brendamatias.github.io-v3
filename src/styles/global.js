@@ -29,6 +29,7 @@ export default createGlobalStyle`
 
   body, input, button {
     font: 14px 'Calibri', sans-serif;
+    letter-spacing: 1px;
   }
 
   a {
