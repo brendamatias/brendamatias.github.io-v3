@@ -45,6 +45,5 @@ export const Content = styled.div`
       color: #fff;
       margin-right: 10px;
     }
-    
   }
 `;

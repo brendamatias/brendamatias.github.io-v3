@@ -18,7 +18,7 @@ export default createGlobalStyle`
     background: #131219;
   }
 
-  #root {
+  .root {
     width: 70%;
     margin: 0 auto;
   }

@@ -13,7 +13,7 @@ export default function Header() {
         <ul>
           <li>Home</li>
           <li>About</li> 
-          <li>Experience</li>
+          <li>Experiences</li>
           <li>Cases</li>
         </ul>
 
