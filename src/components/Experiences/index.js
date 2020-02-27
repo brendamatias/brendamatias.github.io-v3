@@ -21,7 +21,7 @@ export default function Experiences() {
         </ul>
         <div className="works">
           <div id="kurier" className={work === "kurier" ? "visible" : "not-visible"}>
-            <span>Kurier</span>
+            <span>Kurier (Mk Tecnologia em Informação Ltda)</span>
             <h3>Agosto 2019 - Fevereiro 2020</h3>
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting dummy text of the printing and.</p>
@@ -29,7 +29,7 @@ export default function Experiences() {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting dummy text of the printing and.</p>
           </div>
           <div id="mv" className={work === "mv" ? "visible" : "not-visible"}>
-            <span>MV</span>
+            <span>MV Sistemas</span>
             <h3>Agosto 2018 - Agosto 2019</h3>
 
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting dummy text of the printing and.</p>

@@ -4,8 +4,13 @@ export const Container = styled.header`
   height: 89vh;
   display: flex;
   align-items: center;
+  text-align: justify;
 
   padding: 30px 0;
+
+  span {
+    color: #FF5C5Cdd;
+  }
 
   h1 {
     color: #ffffff88;

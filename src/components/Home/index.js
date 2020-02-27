@@ -7,10 +7,9 @@ export default function Home() {
   return (
     <Container id="home">
       <div>
-        <h3>Hi, my name is</h3>
-        <h1 className="name">Brenda Matias</h1>
-        <h1>Lorem ipsum is simply text.</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+        <h1 className="name">hey! i'm <span>Brenda Matias</span>.</h1>
+        <h1>Full Stack Software Enginner.</h1>
+        <p>I am passionate about software development, where I seek to improve myself in technologies that simplify and evolve people's daily lives. I currently reside in Recife, Pernambuco and have experience in full stack development.</p>
         
         <a href="#cases" className="btn">PORTFOLIO</a>
       </div>

@@ -16,11 +16,12 @@ export default function Cases() {
         <img src={rodaacessivel} alt="Brenda Matias" />
         <div>
           <span>Roda Acessível</span>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting dummy text of the printing and  text of the printing and typesetting dummy text of the printing and.</p>
+          <p>Roda Acessível is an application that aims to provide information about accessible places in the city of Recife to disabled people, especially wheelchair users.</p>
 
           <ul>
-            <li>React.js</li>
+            <li>React JS</li>
             <li>Node.js</li>
+            <li>Express</li>
             <li>Docker</li>
             <li>Postgres</li>
             <li>React Native</li>

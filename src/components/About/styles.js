@@ -14,6 +14,7 @@ export const Content = styled.div`
 
   .image {
     margin-right: 100px;
+
     img {
       width: 280px;
       height: 280px;

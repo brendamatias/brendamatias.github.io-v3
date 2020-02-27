@@ -28,7 +28,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <span>Copyright 2020 - Todos os direitos reservados à Brenda Matias</span>
+      <span>Copyright 2020 - All rights reserved to Brenda Matias</span>
     </Container>
   );
 }
