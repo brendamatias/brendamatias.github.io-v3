@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Content } from "./styles";
 import { Container, Title } from "../../styles/styles";
 
-import rodaacessivel from "../../assets/roda-acessivel2.png";
+import rodaacessivel from "../../assets/roda-acessivel.png";
 
 export default function Cases() {
   return (
