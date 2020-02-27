@@ -56,7 +56,7 @@ export const Footer = styled.div`
   }
 
   svg {
-    color: #ffffffaa;
+    color: #ffffff;
     margin-right: 10px;
   }
 `;

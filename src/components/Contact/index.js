@@ -22,7 +22,7 @@ export default function Contact() {
         <Footer>
           <div>
             <span>Contact info</span>
-            <div><FontAwesomeIcon icon={faLinkedinIn} /> brenda@gmailcom</div>
+            <div><FontAwesomeIcon icon={faLinkedinIn} /> brendamatias.sobral@gmail.com</div>
             <div><FontAwesomeIcon icon={faLinkedinIn} /> +55 81 998626092</div>
           </div>
 
