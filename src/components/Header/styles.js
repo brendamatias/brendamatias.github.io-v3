@@ -12,7 +12,7 @@ export const Container = styled.header`
   }
 `;
 
-export const Navbar = styled.header`
+export const Navbar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;

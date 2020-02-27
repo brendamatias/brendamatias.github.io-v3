@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Container = styled.header`
+export const Container = styled.div`
   height: 89vh;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@ export const Container = styled.header`
   padding: 30px 0;
 
   span {
-    color: #FF5C5Cdd;
+    color: #ff5c5cdd;
   }
 
   h1 {
@@ -23,21 +23,21 @@ export const Container = styled.header`
   }
 
   h3 {
-    color: #FF5C5C;
+    color: #ff5c5c;
     font-size: 18px;
     margin-bottom: 20px;
   }
 
   p {
-    margin: 40px 0 55px 0; 
+    margin: 40px 0 55px 0;
     color: #ffffff88;
     max-width: 400px;
   }
 
   .btn {
     background: none;
-    border: 2px solid #FF5C5C;
-    color: #FF5C5C;
+    border: 2px solid #ff5c5c;
+    color: #ff5c5c;
     padding: 12px 40px;
   }
 `;
