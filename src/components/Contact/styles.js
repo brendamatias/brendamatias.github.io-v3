@@ -26,13 +26,13 @@ justify-content: center;
     margin: 0 auto;
   }
 
-  button {
+  .btn {
     background: none;
     border: 2px solid #FF5C5C;
     color: #FF5C5C;
-    padding: 12px 0;
-    width: 160px;
+    padding: 12px 40px;
     margin: 45px auto 60px auto;
+    text-transform: uppercase;
   }
 `;
 
@@ -58,5 +58,12 @@ export const Footer = styled.div`
   svg {
     color: #ffffff;
     margin-right: 10px;
+    transition: all 300ms;  
+  }
+
+  a:hover {
+    svg {
+      color: #FF5C5C;
+    }
   }
 `;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Content = styled.div`
   display: flex;
+  text-align: justify;
 
   p {
     width: 530px;
@@ -44,6 +45,13 @@ export const Content = styled.div`
       font-size: 20px;
       color: #fff;
       margin-right: 10px;
+      transition: all 300ms;  
+    }
+      
+    a:hover {
+      svg {
+        color: #FF5C5C;
+      }
     }
   }
 `;

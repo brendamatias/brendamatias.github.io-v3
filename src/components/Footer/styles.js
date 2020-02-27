@@ -18,6 +18,13 @@ export const Container = styled.div`
       font-size: 20px;
       color: #ffffff66;
       margin-right: 10px;
+      transition: all 300ms;  
+    }
+
+    a:hover {
+      svg {
+        color: #FF5C5C;
+      }
     }
   }
 `;

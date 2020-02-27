@@ -21,12 +21,18 @@ export const Navbar = styled.header`
     display: flex;
     flex-wrap: wrap;
 
-    li {
-      padding: 0 30px;
+    li a {
+      padding: 0 5px;
+      margin: 0 25px;
       color: #ffffffdd;
       font-size: 13px;
 
       text-transform: uppercase;
+      transition: all 300ms;  
+
+      &:hover {
+        color: #FF5C5Cdd;
+      }
     }
   }
 
@@ -47,7 +53,7 @@ export const Navbar = styled.header`
     }
   }
 
-  button {
+  .btn {
     background: #FF5C5C;
     border: none;
     color: #ffffff;
@@ -55,5 +61,10 @@ export const Navbar = styled.header`
     font-size: 13px;
     border-radius: 20px;
     padding: 12px 46px;
+    transition: all 300ms;  
+
+    &:hover {
+      background: #FF5C5Cdd;
+    }
   }
 `;

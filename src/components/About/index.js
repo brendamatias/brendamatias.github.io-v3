@@ -15,7 +15,7 @@ import perfil from "../../assets/perfil.jpg";
 
 export default function About() {
   return (
-    <Container>
+    <Container id="about">
       <Title>About Me</Title>
       <Content>
         <div className="image">
@@ -37,10 +37,18 @@ export default function About() {
           </p>
 
           <div className="icons">
-            <FontAwesomeIcon icon={faLinkedinIn} />
-            <FontAwesomeIcon icon={faBehance} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faGithub} />
+            <a href="https://www.linkedin.com/in/brenda-matias/" alt="Linkedin Brenda Matias" target="_blank" rel="nofollow noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+            <a href="https://www.behance.net/brendamatias" alt="Behance Brenda Matias" target="_blank" rel="nofollow noopener noreferrer">
+              <FontAwesomeIcon icon={faBehance} />
+            </a>
+            <a href="https://www.instagram.com/brendamatiass_/" alt="Instagram Brenda Matias" target="_blank" rel="nofollow noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="https://github.com/brendamatias" alt="Github Brenda Matias" target="_blank" rel="nofollow noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
           </div>
         </div>
       </Content>

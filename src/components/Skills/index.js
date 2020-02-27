@@ -5,7 +5,7 @@ import { Container, Title } from "../../styles/styles";
 
 export default function Skills() {
   return (
-    <Container>
+    <Container id="skills">
       <Title>Skills</Title>
       <Flex>
         <Content>

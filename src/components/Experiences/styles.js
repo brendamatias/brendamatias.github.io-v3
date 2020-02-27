@@ -27,6 +27,7 @@ export const Content = styled.div`
     font-size: 16px;
     font-weight: 300;
     margin-top: 25px;
+    text-align: justify;
 
     &::before {
       content: "";

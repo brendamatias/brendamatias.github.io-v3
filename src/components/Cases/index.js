@@ -10,7 +10,7 @@ import rodaacessivel from "../../assets/roda-acessivel2.png";
 
 export default function Cases() {
   return (
-    <Container>
+    <Container id="cases">
       <Title>Cases</Title>
       <Content>
         <img src={rodaacessivel} alt="Brenda Matias" />
@@ -26,7 +26,7 @@ export default function Cases() {
             <li>React Native</li>
           </ul>
 
-          <a target="_blank" href="https://github.com/brendamatias/roda-acessivel-web" alt="Roda Acessível Github">
+          <a href="https://github.com/brendamatias/roda-acessivel-web" alt="Roda Acessível Github" target="_blank" rel="nofollow noopener noreferrer" >
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>

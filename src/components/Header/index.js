@@ -11,10 +11,11 @@ export default function Header() {
 
       <Navbar>
         <ul>
-          <li>Home</li>
-          <li>About</li> 
-          <li>Experiences</li>
-          <li>Cases</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#cases">Cases</a></li>
         </ul>
 
         <div className="separator">
@@ -22,8 +23,7 @@ export default function Header() {
           <div></div>
           <div></div>
         </div>
-
-        <button>CONTATO</button>
+        <a href="#contact" className="btn">CONTATO</a>
       </Navbar>
     </Container>
   );
