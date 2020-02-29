@@ -27,4 +27,19 @@ export const Container = styled.div`
       }
     }
   }
+  
+  @media (max-width: 767px) { 
+    font-size: 11px;
+    text-align: center;
+
+    padding: 15px 0;
+
+    .icons {
+      margin-bottom: 8px;
+
+      svg {
+        font-size: 16px;
+      }
+    }
+  }
 `;

@@ -16,55 +16,46 @@ export const Navbar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  @media (min-width: 768px) {
+    .separator {
+      margin: 0 60px 0 30px;
 
-  ul {
-    display: flex;
-    flex-wrap: wrap;
+      div {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%; 
+        background: #ffffffaa;
+        margin-bottom: 4px;
+      }
 
-    li a {
-      padding: 0 5px;
-      margin: 0 25px;
-      color: #ffffffdd;
+      div:last-child {
+        margin-bottom: 0px;
+      }
+    }
+
+    .btn {
+      background: #FF5C5C;
+      border: none;
+      color: #ffffff;
+      font-weight: bold;
       font-size: 13px;
-
-      text-transform: uppercase;
+      border-radius: 20px;
+      padding: 12px 46px;
       transition: all 300ms;  
 
       &:hover {
-        color: #FF5C5Cdd;
+        background: #FF5C5Cdd;
       }
     }
   }
 
-  .separator {
-    margin: 0 60px 0 30px;
-
-    div {
-      content: "";
-      width: 5px;
-      height: 5px;
-      border-radius: 50%; 
-      background: #ffffffaa;
-      margin-bottom: 4px;
+  @media (max-width: 767px) {
+    .separator, .btn {
+        display: none;
+        width: 0;
+        height: 0;
+      }
     }
-
-    div:last-child {
-      margin-bottom: 0px;
-    }
-  }
-
-  .btn {
-    background: #FF5C5C;
-    border: none;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 13px;
-    border-radius: 20px;
-    padding: 12px 46px;
-    transition: all 300ms;  
-
-    &:hover {
-      background: #FF5C5Cdd;
-    }
-  }
 `;

@@ -42,4 +42,15 @@ export const Content = styled.div`
   li {
     margin-top: 5px;
   }
+
+  @media (max-width: 767px) { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	  grid-gap: 20px;
+
+    div {
+      margin-right: 0px;
+    }
+
+  }
 `;

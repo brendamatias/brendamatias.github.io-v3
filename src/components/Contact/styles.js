@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   h2 {
-    font-size: 36px;
     color: #ffffffbb;
 
     margin: 80px 0 22px 0;
@@ -10,11 +9,28 @@ export const Container = styled.div`
   }
 
   margin-bottom: 80px;
+  
+  @media (max-width: 767px) { 
+    h2 {
+      text-align: left;
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+
+      &::after {
+        margin-left: 35px;
+        content: "";
+        width: 250px;
+        height: 1px;
+        background: #FF5C5C33;
+      }
+    }
+  }
 `;
 
 export const Content = styled.div`
-display: grid;
-justify-content: center;
+  display: grid;
+  justify-content: center;
 
   p {
     font-size: 16px;
@@ -33,6 +49,16 @@ justify-content: center;
     padding: 12px 40px;
     margin: 45px auto 60px auto;
     text-transform: uppercase;
+  }
+  
+  @media (max-width: 767px) { 
+    p {
+      text-align: justify;
+    }
+
+    .btn {
+      margin: 35px auto 30px auto;
+    }
   }
 `;
 
@@ -64,6 +90,18 @@ export const Footer = styled.div`
   a:hover {
     svg {
       color: #FF5C5C;
+    }
+  }
+  
+  @media (max-width: 767px) { 
+    flex-direction: column;
+
+    div {
+      margin: 10px 0;
+    }
+
+    .margin {
+      margin-left: 0px;
     }
   }
 `;

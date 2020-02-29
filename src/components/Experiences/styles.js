@@ -24,7 +24,6 @@ export const Content = styled.div`
     align-items: center;
     max-width: 530px;
 
-    font-size: 16px;
     font-weight: 300;
     margin-top: 25px;
     text-align: justify;
@@ -80,5 +79,34 @@ export const Content = styled.div`
   .disabled button {
     opacity: 0.6;   
     cursor: not-allowed;
+  }
+
+    
+  @media (max-width: 767px) { 
+    margin-bottom: 320px;
+
+    span {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 12px;
+    }
+
+    p {
+      margin-top: 15px;
+
+      &::before {
+        width: 16px;
+        height: 6px;
+        margin-right: 15px;
+      }
+    }
+
+    ul {
+      button {
+        margin: 0 25px 12px 8px;
+      }
+    }
   }
 `;

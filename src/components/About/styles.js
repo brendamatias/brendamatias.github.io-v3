@@ -7,7 +7,6 @@ export const Content = styled.div`
   p {
     width: 530px;
     color: #fff;
-    font-size: 16px;
     margin-bottom: 20px;
     font-weight: 300;
   }
@@ -53,6 +52,34 @@ export const Content = styled.div`
       svg {
         color: #FF5C5C;
       }
+    }
+  }
+
+  @media (max-width: 767px) { 
+    flex-direction: column;
+
+    p {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .image {
+      margin: 0 auto -155px auto;
+
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    
+      &::after {
+        height: 185px;
+        bottom: 180px;
+        left: 10px;
+      }
+    }
+
+    .icons {
+      margin-top: 20px;
     }
   }
 `;

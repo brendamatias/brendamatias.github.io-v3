@@ -29,7 +29,6 @@ export const Content = styled.div`
 
   p {
     width: 285px;
-    font-size: 16px;
     font-weight: 300;
     margin: 25px 0 25px 0;
   }
@@ -58,6 +57,45 @@ export const Content = styled.div`
   a:hover {
     svg {
       color: #FF5C5C;
+    }
+  }
+
+  
+  @media (max-width: 767px) {   
+    flex-direction: column;
+    margin-bottom: -10px;
+
+    img {
+      max-width: 300px;
+      margin: 0px auto; 
+    }
+
+    span {
+      font-size: 22px;
+
+      &::before {
+        width: 8px;
+        height: 8px;
+      }
+    }
+
+    p {
+      width: 100%;
+      margin: 15px 0 10px 0;
+    }
+
+    ul {
+      max-width: 100%;
+
+        li {
+          font-size: 11px;
+          margin: 7px 7px 0 0;
+      }
+    }
+
+    svg {
+      margin-top: 8px;
+      float: left;
     }
   }
 `;

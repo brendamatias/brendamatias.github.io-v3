@@ -4,7 +4,6 @@ export const Container = styled.div`
   height: 89vh;
   display: flex;
   align-items: center;
-  text-align: justify;
 
   padding: 30px 0;
 
@@ -14,8 +13,6 @@ export const Container = styled.div`
 
   h1 {
     color: #ffffff88;
-    font-size: 64px;
-    line-height: 64px;
   }
 
   .name {
@@ -31,7 +28,9 @@ export const Container = styled.div`
   p {
     margin: 40px 0 55px 0;
     color: #ffffff88;
+    text-align: justify;
     max-width: 400px;
+    font-size: 18px;
   }
 
   .btn {
@@ -39,5 +38,13 @@ export const Container = styled.div`
     border: 2px solid #ff5c5c;
     color: #ff5c5c;
     padding: 12px 40px;
+  }
+
+  @media (max-width: 767px) {
+    p {
+      margin-top: 20px;
+      width: 100%;
+      font-size: 16px;
+    } 
   }
 `;
