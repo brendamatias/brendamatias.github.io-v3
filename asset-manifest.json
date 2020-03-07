@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "./static/js/main.fa4a403d.chunk.js",
-    "main.js.map": "./static/js/main.fa4a403d.chunk.js.map",
+    "main.js": "./static/js/main.a17a556b.chunk.js",
+    "main.js.map": "./static/js/main.a17a556b.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8f01b1e7.js",
     "runtime-main.js.map": "./static/js/runtime-main.8f01b1e7.js.map",
     "static/js/2.f099087a.chunk.js": "./static/js/2.f099087a.chunk.js",
     "static/js/2.f099087a.chunk.js.map": "./static/js/2.f099087a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.22f1a5163b390d847cd86bb3c82a84f5.js": "./precache-manifest.22f1a5163b390d847cd86bb3c82a84f5.js",
+    "precache-manifest.5da267bba623a61083834c3db82a818f.js": "./precache-manifest.5da267bba623a61083834c3db82a818f.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.f099087a.chunk.js.LICENSE.txt": "./static/js/2.f099087a.chunk.js.LICENSE.txt",
     "static/media/perfil.jpg": "./static/media/perfil.52a99cc6.jpg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.8f01b1e7.js",
     "static/js/2.f099087a.chunk.js",
-    "static/js/main.fa4a403d.chunk.js"
+    "static/js/main.a17a556b.chunk.js"
   ]
 }
