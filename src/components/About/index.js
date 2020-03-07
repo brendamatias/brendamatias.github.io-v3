@@ -23,13 +23,13 @@ export default function About() {
         </div>
         <div>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            dummy text of the printing and.
+            Hello! I'm Brenda Matias, a computer engineer, who likes to build 
+            things for the internet.
           </p>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took.
+            I graduated in 2019.2 at Maurício de Nassau University. Lorem Ipsum 
+            has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took.
           </p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

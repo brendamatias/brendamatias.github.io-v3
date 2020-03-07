@@ -32,8 +32,8 @@ export const Content = styled.div`
       content: "";
       display: block;
       background: #FF5C5C;
-      width: 11.6px;
-      height: 8px;
+      min-width: 8px;
+      min-height: 8px;
       margin-right: 20px;
     }
   }

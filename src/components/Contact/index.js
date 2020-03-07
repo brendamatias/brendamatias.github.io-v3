@@ -17,7 +17,7 @@ export default function Contact() {
       <h2>Contact</h2>
 
       <Content>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+        <p>Do you want to know more about me or talk about a potential project? Send me an email, even if it's just to say hi!</p>
         <a href="mailto:brendamatias.sobral@gmail.com" target="_blank" rel="nofollow noopener noreferrer" className="btn">Contact</a>
 
         <Footer>
