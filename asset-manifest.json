@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.a17a556b.chunk.js",
-    "main.js.map": "./static/js/main.a17a556b.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.8f01b1e7.js",
-    "runtime-main.js.map": "./static/js/runtime-main.8f01b1e7.js.map",
-    "static/js/2.f099087a.chunk.js": "./static/js/2.f099087a.chunk.js",
-    "static/js/2.f099087a.chunk.js.map": "./static/js/2.f099087a.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.5da267bba623a61083834c3db82a818f.js": "./precache-manifest.5da267bba623a61083834c3db82a818f.js",
-    "service-worker.js": "./service-worker.js",
-    "static/js/2.f099087a.chunk.js.LICENSE.txt": "./static/js/2.f099087a.chunk.js.LICENSE.txt",
-    "static/media/perfil.jpg": "./static/media/perfil.52a99cc6.jpg",
-    "static/media/roda-acessivel.png": "./static/media/roda-acessivel.eec5d722.png"
+    "main.js": "/static/js/main.d60bc089.chunk.js",
+    "main.js.map": "/static/js/main.d60bc089.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.46339031.js",
+    "runtime-main.js.map": "/static/js/runtime-main.46339031.js.map",
+    "static/js/2.d192cde2.chunk.js": "/static/js/2.d192cde2.chunk.js",
+    "static/js/2.d192cde2.chunk.js.map": "/static/js/2.d192cde2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8ecc22bbc61fc902d01fe4e20808bcf5.js": "/precache-manifest.8ecc22bbc61fc902d01fe4e20808bcf5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.d192cde2.chunk.js.LICENSE.txt": "/static/js/2.d192cde2.chunk.js.LICENSE.txt",
+    "static/media/perfil.jpg": "/static/media/perfil.52a99cc6.jpg",
+    "static/media/roda-acessivel.png": "/static/media/roda-acessivel.eec5d722.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f01b1e7.js",
-    "static/js/2.f099087a.chunk.js",
-    "static/js/main.a17a556b.chunk.js"
+    "static/js/runtime-main.46339031.js",
+    "static/js/2.d192cde2.chunk.js",
+    "static/js/main.d60bc089.chunk.js"
   ]
 }
