@@ -23,7 +23,7 @@ export default function Skills() {
           <div>
             <span>Frameworks</span>
             <ul>
-              <li>Adonis</li>
+              <li>AdonisJs</li>
               <li>Bootstrap</li>
               <li>Express</li>
               <li>React JS</li>

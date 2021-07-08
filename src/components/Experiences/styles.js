@@ -4,17 +4,25 @@ export const Content = styled.div`
   display: flex;
   margin-bottom: 290px;
 
-  span, p {
+  a, p {
     color: #fff;
   }
 
-  span {
+  a {
     font-size: 20px;
     font-weight: 600;
   }
 
-  h3 {
+  span {
+    margin: 4px 0 16px 0;
+  }
+
+  span, h3 {
+    display: block;
     color: #ffffff55;
+  }
+
+  h3 {
     font-size: 14px;
     margin: 12px 0 5px 0;
   }
